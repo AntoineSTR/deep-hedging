@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deephedging"
+version = "1.0.0"
+description = "Deep hedging of options under transaction costs and stochastic volatility, in pure NumPy"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Antoine Streichenberger" }]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22", "scipy>=1.8", "matplotlib>=3.5"]
+keywords = ["deep hedging", "option hedging", "transaction costs", "heston", "quantitative finance"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
