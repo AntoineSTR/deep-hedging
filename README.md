@@ -4,6 +4,8 @@
 ![Dependencies](https://img.shields.io/badge/dependencies-numpy%20%7C%20scipy%20%7C%20matplotlib-52514e)
 ![License](https://img.shields.io/badge/license-MIT-1baf7a)
 
+*[Version française](README.fr.md)*
+
 A neural network learns how to hedge a short option position by minimising the
 risk of its hedged P&L on simulated paths — with no pricing formula, no Greeks
 and no assumption of continuous trading. Implemented from scratch in **NumPy**,
